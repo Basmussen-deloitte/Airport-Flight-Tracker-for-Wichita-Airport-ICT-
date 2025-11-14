@@ -1,0 +1,324 @@
+Using Python: py
+Installing Python requirements (may take a moment)...
+Requirement already satisfied: dash>=2.0 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 1)) (3.3.0)
+Requirement already satisfied: plotly in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 2)) (6.4.0)
+Requirement already satisfied: pandas in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 3)) (2.3.3)
+Requirement already satisfied: requests in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 4)) (2.32.5)
+Requirement already satisfied: matplotlib in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 5)) (3.10.7)
+Requirement already satisfied: seaborn in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 6)) (0.13.2)
+Requirement already satisfied: numpy in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 7)) (2.3.4)
+Requirement already satisfied: Flask>=2.0 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 8)) (3.1.2)
+Requirement already satisfied: redis>=4.0 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 9)) (7.0.1)
+Collecting waitress>=2.2 (from -r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 10))
+  Downloading waitress-3.0.2-py3-none-any.whl.metadata (5.8 kB)
+Requirement already satisfied: Werkzeug<3.2 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from dash>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 1)) (3.1.3)
+Requirement already satisfied: importlib-metadata in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from dash>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 1)) (8.7.0)
+Requirement already satisfied: typing_extensions>=4.1.1 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from dash>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 1)) (4.15.0)
+Requirement already satisfied: retrying in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from dash>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 1)) (1.4.2)
+Requirement already satisfied: nest-asyncio in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from dash>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 1)) (1.6.0)
+Requirement already satisfied: setuptools in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from dash>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 1)) (80.9.0)
+Requirement already satisfied: blinker>=1.9.0 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from Flask>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 8)) (1.9.0)
+Requirement already satisfied: click>=8.1.3 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from Flask>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 8)) (8.3.0)
+Requirement already satisfied: itsdangerous>=2.2.0 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from Flask>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 8)) (2.2.0)
+Requirement already satisfied: jinja2>=3.1.2 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from Flask>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 8)) (3.1.6)
+Requirement already satisfied: markupsafe>=2.1.1 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from Flask>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 8)) (3.0.3)
+Requirement already satisfied: narwhals>=1.15.1 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from plotly->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 2)) (2.11.0)
+Requirement already satisfied: packaging in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from plotly->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 2)) (25.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from pandas->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 3)) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from pandas->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 3)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from pandas->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 3)) (2025.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from requests->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 4)) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from requests->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 4)) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from requests->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 4)) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from requests->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 4)) (2025.11.12)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from matplotlib->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 5)) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from matplotlib->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 5)) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from matplotlib->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 5)) (4.60.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from matplotlib->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 5)) (1.4.9)
+Requirement already satisfied: pillow>=8 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from matplotlib->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 5)) (12.0.0)
+Requirement already satisfied: pyparsing>=3 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from matplotlib->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 5)) (3.2.5)
+Requirement already satisfied: colorama in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from click>=8.1.3->Flask>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 8)) (0.4.6)
+Requirement already satisfied: six>=1.5 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from python-dateutil>=2.8.2->pandas->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 3)) (1.17.0)
+Requirement already satisfied: zipp>=3.20 in c:\users\basmussen\appdata\local\programs\python\python313\lib\site-packages (from importlib-metadata->dash>=2.0->-r C:\Users\basmussen\Desktop\Flight Trackers\New folder\requirements.txt (line 1)) (3.23.0)
+Downloading waitress-3.0.2-py3-none-any.whl (56 kB)
+Installing collected packages: waitress
+Successfully installed waitress-3.0.2
+Starting Airport Tracker API on port 5001...
+Adding temporary firewall rule to allow inbound TCP port 5001 (requires admin)...
+Could not add firewall rule (you may need to run as Administrator). Continuing without it.
+Launching server (logs will appear in this window). Press Ctrl+C to stop.
+Starting production server on http://127.0.0.1:5001 using Waitress
+[DEBUG] Fetching live flights from OpenSky Network...[DEBUG] Fetching live flights from OpenSky Network...
+
+Fetched 0 live flights from OpenSky Network for Wichita areaFetched 0 live flights from OpenSky Network for Wichita area
+
+[DEBUG] Flights data after fetch: 0 flights[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+[DEBUG] Fetching live weather from Open-Meteo...
+
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+[DEBUG] In load_data(): flights_data has 0 items
+[DEBUG] In load_data(): weather_data has 5 items
+OK - Loaded weather for 5 airports (no flight data)
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+[DEBUG] In load_data(): flights_data has 0 items
+[DEBUG] In load_data(): weather_data has 5 items
+OK - Loaded weather for 5 airports (no flight data)
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 0 live flights from OpenSky Network for Wichita area
+Fetched 0 live flights from OpenSky Network for Wichita area[DEBUG] Flights data after fetch: 0 flights
+
+[DEBUG] Flights data after fetch: 0 flights[DEBUG] Fetching live weather from Open-Meteo...
+
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 0 live flights from OpenSky Network for Wichita area
+Fetched 0 live flights from OpenSky Network for Wichita area[DEBUG] Flights data after fetch: 0 flights
+
+[DEBUG] Flights data after fetch: 0 flights[DEBUG] Fetching live weather from Open-Meteo...
+
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...[DEBUG] Fetching live flights from OpenSky Network...
+
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+Fetched live weather for 5 airports[DEBUG] Weather data after fetch: 5 airports
+
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 0 live flights from OpenSky Network for Wichita area
+Fetched 0 live flights from OpenSky Network for Wichita area[DEBUG] Flights data after fetch: 0 flights
+
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airportsFetched live weather for 5 airports
+
+[DEBUG] Weather data after fetch: 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...[DEBUG] Fetching live flights from OpenSky Network...
+
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+Fetched live weather for 5 airports[DEBUG] Weather data after fetch: 5 airports
+
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+Fetched live weather for 5 airports[DEBUG] Weather data after fetch: 5 airports
+
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...[DEBUG] Fetching live flights from OpenSky Network...
+
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...[DEBUG] Fetching live flights from OpenSky Network...
+
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flightsFetched 0 live flights from OpenSky Network for Wichita area
+
+[DEBUG] Fetching live weather from Open-Meteo...[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+
+Fetched live weather for 5 airports
+Fetched live weather for 5 airports[DEBUG] Weather data after fetch: 5 airports
+
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...[DEBUG] Fetching live flights from OpenSky Network...
+
+Fetched 1 live flights from OpenSky Network for Wichita area
+Fetched 1 live flights from OpenSky Network for Wichita area[DEBUG] Flights data after fetch: 1 flights
+
+[DEBUG] Flights data after fetch: 1 flights[DEBUG] First flight: N700FJ  
+[DEBUG] Fetching live weather from Open-Meteo...
+
+[DEBUG] First flight: N700FJ  
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+[DEBUG] Fetching live flights from OpenSky Network...[DEBUG] Fetching live flights from OpenSky Network...
+
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Could not fetch weather for ICT: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=37.75&longitude=-97.37&current_weather=true&timezone=auto (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+Could not fetch weather for ICT: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=37.75&longitude=-97.37&current_weather=true&timezone=auto (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+Could not fetch weather for DFW: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=32.9&longitude=-97.04&current_weather=true&timezone=auto (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+Could not fetch weather for DEN: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=39.86&longitude=-104.67&current_weather=true&timezone=auto (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+Could not fetch weather for DFW: HTTPSConnectionPool(host='api.open-meteo.com', port=443): Max retries exceeded with url: /v1/forecast?latitude=32.9&longitude=-97.04&current_weather=true&timezone=auto (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available
+[DEBUG] Fetching live flights from OpenSky Network...[DEBUG] Fetching live flights from OpenSky Network...
+
+Fetched 1 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 1 flightsFetched 1 live flights from OpenSky Network for Wichita area
+
+[DEBUG] Flights data after fetch: 1 flights
+[DEBUG] First flight: UAL2292 
+[DEBUG] First flight: UAL2292 
+[DEBUG] Fetching live weather from Open-Meteo...[DEBUG] Fetching live weather from Open-Meteo...
+
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+[DEBUG] Fetching live flights from OpenSky Network...
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 1 live flights from OpenSky Network for Wichita areaFetched 1 live flights from OpenSky Network for Wichita area
+
+[DEBUG] Flights data after fetch: 1 flights
+[DEBUG] Flights data after fetch: 1 flights
+[DEBUG] First flight: UAL2292 
+[DEBUG] Fetching live weather from Open-Meteo...
+[DEBUG] First flight: UAL2292 
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+[DEBUG] Fetching live flights from OpenSky Network...[DEBUG] Fetching live flights from OpenSky Network...
+
+Fetched 0 live flights from OpenSky Network for Wichita areaFetched 0 live flights from OpenSky Network for Wichita area
+
+[DEBUG] Flights data after fetch: 0 flights[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+
+[DEBUG] Fetching live weather from Open-Meteo...
+[DEBUG] Fetching live flights from OpenSky Network...
+[DEBUG] Fetching live flights from OpenSky Network...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched 0 live flights from OpenSky Network for Wichita area
+[DEBUG] Flights data after fetch: 0 flights
+[DEBUG] Fetching live weather from Open-Meteo...
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available for pie chart
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+No flight data available for pie chart
+No flight data available
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports
+Fetched live weather for 5 airports
+[DEBUG] Weather data after fetch: 5 airports

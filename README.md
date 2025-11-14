@@ -1,5 +1,3 @@
-# Airport-Flight-Tracker-for-Wichita-Airport-ICT-
-
 # Airport Tracker — Live Flight Dashboard
 
 A real-time flight tracking application with live OpenSky Network data, weather forecasts, and professional visualizations. Includes both a terminal-based menu app and a modern web UI with interactive Plotly charts.
